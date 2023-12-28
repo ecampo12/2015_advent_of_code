@@ -1,0 +1,14 @@
+.vscode
+# ignore __pycache__ folder in all folders
+__pycache__
+# ignore input.txt file in all folders
+input.txt
+go.work
+# Swift stuff
+.build/
+# Kotlin stuff
+.gradle
+.idea
+build
+src/**/*.txt
+local.properties
