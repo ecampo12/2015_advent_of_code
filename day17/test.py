@@ -6,13 +6,15 @@ class Test(unittest.TestCase):
         file = open("test_input.txt", "r")
         input = file.read().splitlines()
         file.close()
-        self.assertTrue(False)
+        combos = part1(input)
+        self.assertEqual(len(combos), 4)
 
     def test_part2(self):
         file = open("test_input.txt", "r")
         input = file.read().splitlines()
         file.close()
-        self.assertTrue(False)
+        min_len = part2(input)
+        self.assertEqual(min_len, 3)
         
 if __name__ == "__main__":
     unittest.main()
