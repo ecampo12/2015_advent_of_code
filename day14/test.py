@@ -6,13 +6,17 @@ class Test(unittest.TestCase):
         file = open("test_input.txt", "r")
         input = file.read().splitlines()
         file.close()
-        self.assertTrue(False)
+        times = part1(input)
+        expected = [1120, 1056]
+        self.assertEqual(times, expected)
 
     def test_part2(self):
         file = open("test_input.txt", "r")
         input = file.read().splitlines()
         file.close()
-        self.assertTrue(False)
+        points = part2(input)
+        expected = [312, 689]
+        self.assertEqual(points, expected)
         
 if __name__ == "__main__":
     unittest.main()
