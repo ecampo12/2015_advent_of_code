@@ -6,14 +6,8 @@ class Test(unittest.TestCase):
         file = open("test_input.txt", "r")
         input = file.read().splitlines()
         file.close()
-        self.assertTrue(False)
-
-    def test_part2(self):
-        file = open("test_input.txt", "r")
-        input = file.read().splitlines()
-        file.close()
-        self.assertTrue(False)
-        
+        self.assertEqual(part1(input), 330)
+     
 if __name__ == "__main__":
     unittest.main()
     
