@@ -6,14 +6,10 @@ class Test(unittest.TestCase):
         file = open("test_input.txt", "r")
         input = file.read().splitlines()
         file.close()
-        self.assertTrue(False)
+        results = [part1(x)[0] for x in input]
+        expected = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+        self.assertEqual(results, expected)
 
-    def test_part2(self):
-        file = open("test_input.txt", "r")
-        input = file.read().splitlines()
-        file.close()
-        self.assertTrue(False)
-        
 if __name__ == "__main__":
     unittest.main()
     
