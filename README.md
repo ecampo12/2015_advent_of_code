@@ -12,3 +12,4 @@ I will mainly be using python, but I might try some other languages as well.
 
 - I will try to not post my puzzle input, so you will have to get your own.
 - Python solutions were written in python 3.10.12 and may not work in older versions.
+- Rust solutions were written in rustc 1.75.0 (82e1608df 2023-12-21), and may not work on older versions.

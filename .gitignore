@@ -12,3 +12,10 @@ go.work
 build
 src/**/*.txt
 local.properties
+# Rust stuff
+Cargo.lock
+target/
+debug/
+target/
+**/*.rs.bk
+*.pdb
